@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "issgeo",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTEzOTFkMTY2ZDg3ZTU4Y2ZhMmFhYjhlZjAwZDEyYTg0MWE2YTk4YmVlYTU2ZDM3YTQ0ZGI2ODAxMTUxMDI2YjQxMmM1MmM0ZTU0NmMzYjc0YWIwMWVjMTYwZjYxOTA2NTg4NDNmNWEzYjc4NDk5ZjFlYTcyZmU5ODVlY2YzZmM=",
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.0.0-beta2"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr", "al", "vi"],
+    "blueprint": "generator-jhipster-vuejs",
+    "blueprintVersion": "1.0.0-beta2"
+  },
+  "generator-jhipster-vuejs": {
+    "clientTheme": "minty",
+    "clientThemeVariant": "primary",
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "issgeo",
+    "clientFramework": "vue",
+    "useSass": true,
+    "clientPackageManager": "npm"
+  }
+}
